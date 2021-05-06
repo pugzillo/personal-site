@@ -1,7 +1,6 @@
-/* Color Palette: https://colorhunt.co/palette/273721 */
 body {
     margin: 0;
-    background-color: #d5ecc2;
+    background-color: #eaf6f6;
     text-align: center;
     font-family: 'Merriweather', serif;
   }
@@ -12,24 +11,49 @@ header, footer {
 
 header h1 {
     margin: 0;
-    padding: 25px 15px 20px 12px;
+    padding: 25px 10px 0px 12px;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
 }
 
 header h2 {
     margin: 0;
-    padding: 25px 15px 20px 12px;
-    font-size: 2.625rem;
+    padding: 0px 10px 20px 12px;
+    font-size: 1.5rem;
 }
 
 main {
-    margin: 50px 0px 50px 0px;
+    margin: 30px auto 50px auto;
+    width: 50%;
+    padding: 20px;
+}
+
+hr {
+    color: grey;
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+a:link {
+    color: #11999E;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+h1 {
+    color: #11999E; 
+    font-weight: bold;
 }
 
 .logo-images {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     padding: 10px;
 }
 
@@ -37,10 +61,3 @@ footer {
     padding: 25px 15px 20px 12px;
 }
 
-hr {
-    color: #EAF6F6;
-    border-style: none;
-    border-top: dotted;
-    border-width: 5px;
-    width: 5%;
-}
