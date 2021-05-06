@@ -36,6 +36,12 @@ hr {
     width: 5%;
 }
 
+ul {
+    width: 5%;
+    text-align: center;
+    margin: 16px 300px 16px auto;
+}
+
 a:link {
     color: #11999E;
     margin: 5px;
@@ -44,6 +50,12 @@ a:link {
 
 a:hover {
     color: #EAF6F6;
+}
+
+h1 {
+    color: #11999E; 
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 h3 {
