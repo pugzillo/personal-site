@@ -1,11 +1,12 @@
 body {
-    margin: 0;
+    margin: 0; 
     background-color: #eaf6f6;
     text-align: center;
     line-height: 1.5;
     font-family: 'Merriweather', serif;
-  }
+}
 
+/* Header and Footer specific */
 header, footer {
     background-color: #98ddca;
 }
@@ -23,6 +24,11 @@ header h2 {
     font-size: 1.5rem;
 }
 
+footer {
+    padding: 25px 15px 20px 12px;
+}
+
+/* Article Section specific */
 main {
     margin: 30px auto 50px auto;
     width: 50%;
@@ -37,10 +43,10 @@ hr {
     width: 5%;
 }
 
+/* Lists: Unordered and ordered */
 ul {
     width: 5%;
     text-align: center;
-    /* margin: 16px 350px 16px auto; */
     /* Using percentages so it's more responsive when you change window size */
     margin: 2% 40%;
 }
@@ -49,16 +55,7 @@ ol {
     text-align: left;
 }
 
-a:link {
-    color: #11999E;
-    margin: 5px;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #EAF6F6;
-}
-
+/* Headers */
 h1 {
     color: #11999E; 
     font-weight: bold;
@@ -76,7 +73,15 @@ h3 {
     padding: 10px;
 }
 
-footer {
-    padding: 25px 15px 20px 12px;
+/* Links: styles at different states */
+/* Baseline */
+a:link {
+    color: #11999E;
+    margin: 5px;
+    text-decoration: none;
 }
 
+/* Hover */
+a:hover {
+    color: #EAF6F6;
+}
