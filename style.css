@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #eaf6f6;
     text-align: center;
+    line-height: 1.5;
     font-family: 'Merriweather', serif;
   }
 
@@ -39,7 +40,13 @@ hr {
 ul {
     width: 5%;
     text-align: center;
-    margin: 16px 300px 16px auto;
+    /* margin: 16px 350px 16px auto; */
+    /* Using percentages so it's more responsive when you change window size */
+    margin: 2% 40%;
+}
+
+ol {
+    text-align: left;
 }
 
 a:link {
