@@ -1,0 +1,46 @@
+/* Color Palette: https://colorhunt.co/palette/273721 */
+body {
+    margin: 0;
+    background-color: #d5ecc2;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+
+header, footer {
+    background-color: #98ddca;
+}
+
+header h1 {
+    margin: 0;
+    padding: 25px 15px 20px 12px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+header h2 {
+    margin: 0;
+    padding: 25px 15px 20px 12px;
+    font-size: 2.625rem;
+}
+
+main {
+    margin: 50px 0px 50px 0px;
+}
+
+.logo-images {
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+footer {
+    padding: 25px 15px 20px 12px;
+}
+
+hr {
+    color: #EAF6F6;
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 5%;
+}
